@@ -1,16 +1,41 @@
-# mvvm_networking
+# MVVM Networking
 
-A new Flutter project.
+Implementation of the **MVVM + Repository Pattern** architecture to fetch REST API data
+using Dio. Demonstrates a clean layer structure: data → domain → presentation.
 
-## Getting Started
+## Features
+- Fetch, create, and delete posts from the API (JSONPlaceholder)
+- Repository Pattern (abstraction + implementation)
+- `Result<T>` sealed class — avoids try-catch blocks in the UI layer
+- Error states, loading states, and retry mechanism
+- Toggle simulated errors for the demo
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter, Dart · Dio ^5.4.3
 
-A few resources to get you started if this is your first Flutter project:
+##  Run the Project
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter pub get
+flutter run
+```
+##  Author
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Wahyu Ravi Anggoro**  
+*Student at SMK Telkom Malang*
+
+- **GitHub:** [@WagyuuA5](https://github.com/WagyuuA5)
+
+---
+
+---
+
+<div align="center">
+
+###  If you found this project helpful, please consider giving it a star!
+
+*Building reliable software through clean code, continuous learning, and practical experience.*
+
+Made  by **Wahyu Ravi Anggoro**
+
+</div>
